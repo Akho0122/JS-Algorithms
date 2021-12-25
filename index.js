@@ -33,7 +33,12 @@
 // }
 // console.log(lessThan100(12,34));
 
-function lessThan100(num1, num2, num3){
-    return (num1 * 2) + (num2 * 4) + (num3 * 4);
+// function lessThan100(num1, num2, num3){
+//     return (num1 * 2) + (num2 * 4) + (num3 * 4);
+// }
+// console.log(lessThan100(2, 3, 5));
+
+function isSameNum(num1, num2){
+    return (num1 === num2);
 }
-console.log(lessThan100(2, 3, 5));
+console.log(isSameNum(2, 2));
