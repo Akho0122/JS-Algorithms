@@ -1,13 +1,30 @@
 
-const arr = [1,2,3,4,54,5,6];
+// const arr = [1,2,3,4,54,5,6];
 
-function sumArr(arr){
-    let sum = 0
+// function sumArr(arr){
+//     let sum = 0
+//     for(let i = 0; i < arr.length; i++){
+//      sum += arr[i]
+//     }
+//     console.log(sum)
+// }
+
+// sumArr(arr);
+
+const arr1 = [true, false, true, false, false];
+
+function sumTruFalse(arr){
+    let trues = 0;
+    let fal = 0;
     for(let i = 0; i < arr.length; i++){
-     sum += arr[i]
+     if(arr[i]){
+     trues++
+    } else{
+        fal++
     }
-    console.log(sum)
+}
+    console.log({trues, fal})
 }
 
-sumArr(arr)
+sumTruFalse(arr1);
 
