@@ -11,20 +11,24 @@
 
 // sumArr(arr);
 
-const arr1 = [true, false, true, false, false];
+// const arr1 = [true, false, true, false, false];
 
-function sumTruFalse(arr){
-    let trues = 0;
-    let fal = 0;
-    for(let i = 0; i < arr.length; i++){
-     if(arr[i]){
-     trues++
-    } else{
-        fal++
-    }
+// function sumTruFalse(arr){
+//     let trues = 0;
+//     let fal = 0;
+//     for(let i = 0; i < arr.length; i++){
+//      if(arr[i]){
+//      trues++
+//     } else{
+//         fal++
+//     }
+// }
+//     console.log({trues, fal})
+// }
+
+// sumTruFalse(arr1);
+
+function lessThan100(num1, num2){
+    return (num1 + num2) > 100;
 }
-    console.log({trues, fal})
-}
-
-sumTruFalse(arr1);
-
+console.log(lessThan100(12,34))
