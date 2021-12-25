@@ -38,7 +38,12 @@
 // }
 // console.log(lessThan100(2, 3, 5));
 
-function isSameNum(num1, num2){
-    return (num1 === num2);
+// function isSameNum(num1, num2){
+//     return (num1 === num2);
+// }
+// console.log(isSameNum(2, 2));
+
+function footballPoints(wins,draws, loses){
+    return (wins * 3) + (draws * 1);
 }
-console.log(isSameNum(2, 2));
+console.log(footballPoints(5,0,2));
