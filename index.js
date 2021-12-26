@@ -115,3 +115,6 @@ function minMax(arr) {
   function matchHouses(step) {
     return step === 0 ? 0 : 5 * step + 1;
   }
+  function canNest(arr1, arr2) {
+    return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
+  }
