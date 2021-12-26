@@ -99,3 +99,13 @@ function minMax(arr) {
     let [fr, gr] = [f(), g()];
     return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
   }
+  function binary(decimal) {
+    var bin = "";
+    for(; decimal > 1;)
+      {
+        bin = (decimal%2) + bin ;
+        decimal = Math.floor(decimal/2);
+      }
+    bin = decimal + bin ;
+    return bin;
+  }
