@@ -109,3 +109,4 @@ function minMax(arr) {
     let [fr, gr] = [f(), g()];
     return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
   }
+  const REGEXP = /\d{2}:\d{2}/;
