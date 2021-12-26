@@ -111,3 +111,7 @@ function minMax(arr) {
   }
   const REGEXP = /\d{2}:\d{2}/;
   let promise = new Promise((resolve, reject) => setTimeout(resolve, 1000, "edabit"));
+
+  function matchHouses(step) {
+    return step === 0 ? 0 : 5 * step + 1;
+  }
