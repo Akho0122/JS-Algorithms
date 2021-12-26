@@ -89,3 +89,8 @@ function minMax(arr) {
     return [arr[0], arr[arr.length-1]];
     
   }
+
+  function timeForMilkAndCookies(date) {
+    date = date.toString().split(' ');
+    return date[1] == 'Dec' && date[2] == 24;
+  }
