@@ -43,7 +43,22 @@
 // }
 // console.log(isSameNum(2, 2));
 
-function footballPoints(wins,draws, loses){
-    return (wins * 3) + (draws * 1);
+// function footballPoints(wins,draws, loses){
+//     return (wins * 3) + (draws * 1);
+// }
+// console.log(footballPoints(5,0,2));
+
+// function convert(h, m){
+//     return (h * 3600) + (m * 60)
+// }
+// console.log(convert(1,3))
+
+// function isSeven(x) {
+// 	return x === 7;
+// }
+// console.log(isSeven(7));
+
+function profitableGame(prob, prize, pay){
+    return (prob * prize) > pay;
 }
-console.log(footballPoints(5,0,2));
+console.log(profitableGame(0.2, 50, 9))
