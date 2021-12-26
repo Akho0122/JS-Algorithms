@@ -110,3 +110,4 @@ function minMax(arr) {
     return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
   }
   const REGEXP = /\d{2}:\d{2}/;
+  let promise = new Promise((resolve, reject) => setTimeout(resolve, 1000, "edabit"));
