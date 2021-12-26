@@ -94,11 +94,6 @@ function minMax(arr) {
     date = date.toString().split(' ');
     return date[1] == 'Dec' && date[2] == 24;
   }
-
-  function whichIsLarger(f, g) {
-    let [fr, gr] = [f(), g()];
-    return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
-  }
   function binary(decimal) {
     var bin = "";
     for(; decimal > 1;)
@@ -108,4 +103,9 @@ function minMax(arr) {
       }
     bin = decimal + bin ;
     return bin;
+  }
+
+  function whichIsLarger(f, g) {
+    let [fr, gr] = [f(), g()];
+    return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
   }
