@@ -73,12 +73,14 @@
 // };
 // console.log(tipTwo(false));
 
-function addUp(num) {
-    let sum = 0;
-    for (let i = 1; i <= num; i++) {
-      sum += i;
-    }
-    return sum;
-  }
+// function addUp(num) {
+//     let sum = 0;
+//     for (let i = 1; i <= num; i++) {
+//       sum += i;
+//     }
+//     return sum;
+//   }
 
-console.log(addUp(4))
+// console.log(addUp(4))
+
+const shiftToLeft = (x, y) => x * 2 ** y;
