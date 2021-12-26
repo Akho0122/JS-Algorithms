@@ -58,7 +58,17 @@
 // }
 // console.log(isSeven(7));
 
-function profitableGame(prob, prize, pay){
-    return (prob * prize) > pay;
-}
-console.log(profitableGame(0.2, 50, 9))
+// function profitableGame(prob, prize, pay){
+//     return (prob * prize) > pay;
+// }
+// console.log(profitableGame(0.2, 50, 9))
+
+// function profitableGame(val){
+//     return val + '';
+// }
+// console.log(profitableGame(2))
+
+function tipTwo(val) {
+    return val.toString();
+};
+console.log(tipTwo(false));
