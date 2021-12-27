@@ -126,3 +126,7 @@ function minMax(arr) {
   function canNest(arr1, arr2) {
     return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
   }
+  function whichIsLarger(f, g) {
+    let [fr, gr] = [f(), g()];
+    return fr > gr ? 'f' : fr < gr ? 'g' : 'neither';
+  }
