@@ -119,3 +119,7 @@ function minMax(arr) {
     return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
   }
   const numberSquares = n => n > 1? n**2 + numberSquares(n-1) : 1;
+  
+  function largestSwap(num) {
+    return num / 10 > num % 10
+  }
