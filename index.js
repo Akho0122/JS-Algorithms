@@ -188,3 +188,7 @@
   //   return args.sort(function (a, b) { return a - b; });
   // }
   // console.log(sortArgs(1,2,34,4))
+     // function sortArgs(...args) {
+  //   return args.sort(function (a, b) { return a - b; });
+  // }
+  // console.log(sortArgs(1,2,34,4))
