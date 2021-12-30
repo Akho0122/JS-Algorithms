@@ -122,5 +122,7 @@
 //     return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
 //   }
 
-
+//   function matchHouses(step) {
+//     return step === 0 ? 0 : 5 * step + 1;
+//   }
 
